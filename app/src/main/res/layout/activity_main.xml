@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:id="@+id/display_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:maxLines="3"
+        android:padding="10dp"
+        android:layout_margin="16dp"
+        android:text=""
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pitch"
+        android:textSize="16sp"
+        android:layout_above="@+id/seek_bar_pitch"/>
+
+    <SeekBar
+        android:id="@+id/seek_bar_pitch"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:layout_above="@+id/speak_text"/>
+
+    <TextView
+        android:id="@+id/speak_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed"
+        android:textSize="16sp"
+        android:layout_above="@+id/seek_bar_speed"/>
+
+    <SeekBar
+        android:id="@+id/seek_bar_speed"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:progress="50"
+        android:layout_above="@+id/capture_button"/>
+
+    <Button
+        android:id="@+id/capture_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture Image"
+        android:layout_above="@+id/detect_button"/>
+
+    <Button
+        android:id="@+id/detect_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/speak_button"
+        android:text="Detect Text"/>
+
+    <Button
+        android:id="@+id/speak_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Speak"
+        android:enabled="false"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+</RelativeLayout>
