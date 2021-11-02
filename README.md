@@ -10,7 +10,8 @@ https://user-images.githubusercontent.com/81246797/139798763-3775a0ea-ce6d-4ea9-
 ## Installation
 
 1. Click on the link Here👇 to download
-https://github.com/ArjunJadeja/CoinManGame/blob/main/CoinMan.apk
+
+https://github.com/ArjunJadeja/ImageReader/blob/main/app-debug.apk
 
 2. Click "View Raw". It will automatically start downloading file
 
