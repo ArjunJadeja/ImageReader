@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/81246797/139798763-3775a0ea-ce6d-4ea9-
 
 1. Click on the link Here👇 to download
 
-https://github.com/ArjunJadeja/ImageReader/blob/main/app-debug.apk
+    https://github.com/ArjunJadeja/ImageReader/blob/main/app-debug.apk
 
 2. Click "View Raw". It will automatically start downloading file
 
@@ -20,10 +20,6 @@ https://github.com/ArjunJadeja/ImageReader/blob/main/app-debug.apk
 4. Click Continue.
 
 5. Congrats🥳 You have installed the app!
-    
-## Documentation
-
-to be done...
 
 
 ## Contributing
